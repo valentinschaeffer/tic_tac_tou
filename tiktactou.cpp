@@ -160,7 +160,7 @@ bool checkF(int input)
         for (int j = 0; j < 3; j++) {
             n+=1;
             if (n == input) {
-                if (backfields[i][j] == 4 || backfields[i][j] == 2) {
+                if (backfields[i][j] == 4 || backfields[i][j] == 1) {
                     std::cout << "try again, du kek" << std::endl;
                     //print_fields();
                     return 0;
